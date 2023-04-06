@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr  6 05:34:50 2023
-
-@author: ROHITH EATUKURI
-"""
-
 #2.1
 def is_prime(num):
     if num < 2:
