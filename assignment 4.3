@@ -1,0 +1,11 @@
+#4.3
+num1 = []
+n = int(input("enter the number of sequence you would like to find "))
+for i in range(n):
+    num = int(int("enter element { }: ".format(i+1)))
+    num1.append(num)
+nonduplicatelist = []
+for num in num1:
+    if num not in nonduplicatelist:
+        numduplicatelist.append(num)
+print("non duplicate item:".nonduplicatelist)
